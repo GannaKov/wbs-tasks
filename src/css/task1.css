@@ -8,8 +8,7 @@ body {
   justify-content: center;
   gap: 1rem;
 }
-.task1-item {
-}
+
 .task1-item__wrapper {
   padding: 1rem;
   border: 1px solid rgb(0, 149, 255);
@@ -18,7 +17,7 @@ body {
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 1rem) / 2);
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 1100px) {
     flex-basis: calc((100% - 2 * 1rem) / 3);
   }
 }
