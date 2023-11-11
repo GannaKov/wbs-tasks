@@ -15,6 +15,12 @@ body {
   border: 1px solid rgb(0, 149, 255);
   border-radius: 5px;
   width: 300px;
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 1rem) / 2);
+  }
+  @media screen and (min-width: 1200px) {
+    flex-basis: calc((100% - 2 * 1rem) / 3);
+  }
 }
 .task1-item__icon {
   margin-bottom: 1rem;
